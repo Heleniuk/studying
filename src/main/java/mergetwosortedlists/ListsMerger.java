@@ -9,7 +9,7 @@ public class ListsMerger {
             return first;
         }
 
-        if (first.val < second.val){
+        if (first.val < second.val) {
             first.next = mergeTwoLists(first.next, second);
             return first;
         } else {
